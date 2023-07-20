@@ -1,0 +1,112 @@
+/* resting */
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.face{
+    margin:auto;
+    margin-top:10%;
+/* outline: 2px solid red; */
+width: 500px;
+height: 500px;
+background-color:#ffd52d;
+border-radius:50%;
+position:relative;
+}
+
+.eyes
+{
+    position:absolute;
+    width:80%;
+    display: flex;
+    /* outline:2px solid green; */
+    justify-content: space-around;
+    align-items: center;
+    top:150px;
+    left:50px;
+}
+
+.eyes .eye{
+    width:40px;
+    height: 40px;
+    background-color: rgba(31, 109, 192, 0.915);
+    border-radius: 50%;
+   
+}
+
+.eye .eyeball
+{
+    width:80%;
+    height:80%;
+    border-radius: 50%;
+    background-color:black ;
+    position:relative;
+}
+.eyeball .retina
+{
+    width: 60%;
+    height: 60%;
+    background-color: white;
+    border-radius: 50%;
+    position:absolute;
+    top:5px;
+    left:5px;
+}
+
+.mid
+{
+    position:absolute;
+    width: 80%;
+    height:20%;
+    display: flex;
+    justify-content: space-between;
+    /* outline:2px solid rebeccapurple; */
+    top:45%;
+    left:50px;
+    padding-inline: 1rem;
+}
+
+.mid .cheek
+{
+    width:100px;
+    height:100px;
+    background-color: rgb(255, 126, 147);
+    border-radius: 50%;
+    filter: blur(20px);
+}
+
+.mid .nose
+{
+    height: 70px;
+    width: 30px;
+    background-color: black;
+    border-radius:75%;
+}
+
+.mouth
+{
+    width:35%;
+    height: 90px;
+    /* outline: 2px solid red; */
+    position:absolute;
+    top:70%;
+    left:32.5%;
+    background-color: #b53032;
+    border-radius:8px 8px  100px 100px;
+    overflow: hidden;
+}
+
+.mouth .tongue
+{
+    margin:50px 45px;
+    width: 50%;
+    height: 100px;
+    border-radius: 50%;
+ 
+    background-color:#f19c89 ;
+    
+}
